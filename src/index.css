@@ -10,11 +10,11 @@ code {
 }
 
 form > input {
-  background-color: var(--forum-seamoss);
+  background-color: var(--forum-sage);
 }
 
 form > button {
-  background-color: var(--btn-yellow);
+  background-color: var(--button-softblue);
   font-weight: 500;
 }
 form > button:hover {
@@ -26,9 +26,10 @@ form > button:active {
   transform: translateY(2px);
 }
 
-form > button, form > input {
+form > button,
+form > input {
   color: var(--btn-fontcolor);
-  border: 0;
+  border: 1px solid black;
   margin: 2px;
   height: auto;
   width: auto;
@@ -38,7 +39,8 @@ form > button, form > input {
   width: 70%;
 }
 
-.table, ul {
+.table,
+ul {
   background-color: var(--space-grey);
   color: var(--btn-fontcolor);
 }
@@ -78,7 +80,8 @@ form > button, form > input {
   color: var(--btn-yellow);
 }
 
-.sub-checkbox, .checkbox {
+.sub-checkbox,
+.checkbox {
   margin: 10px;
   color: var(--btn-yellow);
 }

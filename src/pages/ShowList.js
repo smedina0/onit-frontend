@@ -13,7 +13,10 @@ const ShowList = (props) => {
   function AnimatedExample() {
     return (
       <div class='progressBar'>
-        <ProgressBar animated now={completedPercentage} variant='warning' />
+        <ProgressBar
+          now={completedPercentage}
+          className='custom-progress-bar'
+        />
       </div>
     );
   }

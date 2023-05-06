@@ -159,12 +159,15 @@ function Index(props) {
               onFocus={handleCategoryFocus}
               onBlur={handleCategoryBlur}
             />
-            <input
+            {/* <input
               class='index-form-button'
               id='category'
               type='submit'
               value='+'
-            />
+            /> */}
+            <button type="submit" className="submit-category-button">
+            Add
+          </button>
           </form>
         </div>
       </>

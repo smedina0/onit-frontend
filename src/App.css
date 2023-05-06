@@ -192,7 +192,7 @@ h2 {
 }
 
 .navbar .hamburger {
-  background-color: #f9bc60;
+  background-color: var(--button-softblue);
   margin-right: 5px;
 }
 
@@ -240,10 +240,10 @@ ul.button-container {
 }
 
 .index-buttons {
-  background-color: var(--btn-yellow) !important;
+  background-color: var(--button-softblue) !important;
   color: black !important;
   font-family: 'montserrat';
-  border-color: var(--btn-yellow) !important;
+  border-color: black !important;
   border-radius: 0px !important;
   margin-bottom: 9px;
   word-wrap: break-word;
@@ -258,7 +258,7 @@ ul.button-container {
   width: 60%;
   height: 50px;
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -266,7 +266,7 @@ ul.button-container {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--btn-yellow);
+  background-color: var(--button-softblue);
   color: black;
   font-size: 30px;
   border: 1px solid black;
@@ -285,7 +285,7 @@ ul.button-container {
   font-weight: bold;
   color: black;
   border: black 1px solid;
-  background-color: #f9bc60;
+  background-color: var(--button-softblue);
 }
 
 div .feeling {
@@ -593,4 +593,15 @@ th {
 /* CSS for progress bar */
 .progressBar {
   margin-bottom: 20px; /* Add margin to bottom of progress bar to avoid overlap with table */
+}
+
+.custom-progress-bar {
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+.custom-progress-bar .progress-bar {
+  background-color: var(--font-darkpurple);
+
+  border-radius: 4px;
 }

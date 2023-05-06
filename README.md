@@ -5,6 +5,7 @@ Onit is a sophisticated task management application designed to streamline and e
 ## Technologies Used
 
 - React.js
+- React-Bootstrap
 - Mongoose
 - MongoDB
 - CSS3
